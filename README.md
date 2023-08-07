@@ -1,2 +1,2 @@
 # alx-higher level programming
-A directory high level programmin lnaguages
+A directory for high level programming languages
