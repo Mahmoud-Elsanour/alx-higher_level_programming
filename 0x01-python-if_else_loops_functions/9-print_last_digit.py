@@ -1,4 +1,8 @@
 #!/usr/bin/python3
 def print_last_digit(number):
-  print(str(number)[-1], end="")
-  return(str(number)[-1])
+    if number < 0:
+        ldigit = -(number % -10)
+    else:
+        ldigit = number % 10
+    print(f"{ldigit}", end="")
+    return(ldigit)
